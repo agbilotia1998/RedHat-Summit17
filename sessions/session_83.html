@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <link rel=preload as=script href=../js/jquery.min.js>
+    <link rel=preload as=script href=../js/bootstrap.min.js>
+    <link rel=preload as=script href=../js/tracks.min.js>
+    <link rel=preload as=style href=../css/schedule.css>
+    <link rel=preload as=style href=../css/font-awesome.min.css>
+    <link rel=preload as=style href=../css/bootstrap.min.css>
+    <link rel=preload as=font href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" crossorigin>
+
+
+    <meta charset=utf-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <meta name=description content=" Schedule">
+    <meta name=author content="">
+
+    <title></title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="shortcut icon" href="" type=image/x-icon>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel=stylesheet>
+    <link rel=stylesheet href=../css/font-awesome.min.css>
+    <link rel=stylesheet href=../css/bootstrap.min.css>
+    <link rel=stylesheet href=../css/schedule.css>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+    <a href=#track-list class=skip>Skip to content</a>
+    <a class=scroll href=# id=down-button data-scroll-direction=0>
+      <i class="fa fa-chevron-up" aria-hidden=true></i>
+    </a>
+    <a id=top></a>
+    
+    <!-- Fixed navbar -->
+    <header role=banner class="navbar-fixed-top navbar-default">
+      <div class=container>
+        <div class="navbar-header navbar-left pull-left">
+            <a class=navbar-brand style=padding:px href=../ >
+              <img alt="../Red Hat Summit 2017" class="logo logo-dark" src=../images/logo.png>
+          </a>
+        </div>
+    
+        <div class="navbar-header navbar-right pull-right">
+            <button data-toggle=collapse-side data-target=.side-collapse type=button class="navbar-toggle pull-right">
+            <span class=sr-only>Toggle navigation</span>
+            <span class=icon-bar></span>
+            <span class=icon-bar></span>
+            <span class=icon-bar></span>
+          </button>
+        </div>
+    
+        <div class="hidden-lg hidden-md hidden-sm clearfix"></div>
+        <div class="side-collapse in">
+          <nav role=navigation class=navbar-collapse>
+            <div class=search-container>
+              <input id=search-box type=text class="search-box fossasia-filter">
+              <label for=search-box><span class=search-icon><i class="fa fa-search" aria-hidden=true></i></span></label>
+            </div>
+          <ul class="nav navbar-nav navbar-right">
+              <li class=navlink><a id=homelink href=../index.html>Home</a></li>
+              <li class=navlink><a id=schedulelink href=../schedule.html>Schedule</a></li>
+              <li class=navlink><a id=trackslink href=../tracks.html>Tracks</a></li>
+              <li class=navlink><a id=roomslink href=../rooms.html>Rooms</a></li>
+              <li class=navlink><a id=speakerslink href=../speakers.html>Speakers</a></li>
+    
+                <li class="pull-left social-icons"><a href=https://www.facebook.com/redhatsummit id=social-icons><i class="fa fa-lg fa-facebook" aria-hidden=true title=facebook></i></a></li>
+                <li class="pull-left social-icons"><a href=https://twitter.com/RedHatSummit id=social-icons><i class="fa fa-lg fa-twitter" aria-hidden=true title=twitter></i></a></li>
+                <li class="pull-left social-icons"><a href=https://www.youtube.com/user/redhatsummit id=social-icons><i class="fa fa-lg fa-youtube-play" aria-hidden=true title=youtube-play></i></a></li>
+    
+          </ul>
+        </nav>
+      </div>
+    </div>
+    </header>
+      <div class="container session-container">
+        <div class="row single-session" id=83>
+          <h3> Tuesday, 2nd May </h3>
+          <div class=eventtime><span class=time-track>10:15 - 11:00</span></div>
+          <div class=session-content>
+            <div class="sizeevent event event-title" id=title-83 style=background-color:#b21212;color:#fff;margin-right:0;cursor:unset>
+              Technological pivot points lightning talks  (45 minutes session)  | Lightning talk
+              <a class=bookmark>
+                <i class="fa fa-star" aria-hidden=true>
+                </i>
+              </a>
+            </div>
+            <div>
+              <div>
+                FPGA workload acceleration using Red Hat Enterprise LinuxJon Masters, Red HatField programmable gate arrays (FGPAs)00a0and other programmable logic devices are rapidly gaining traction for emerging data analytics and processing workloads. Their power efficiency and performance advantages are numerous, but FPGAs have traditionally required extreme levels of technical knowledge to use. This is changing, thanks to industry standardization efforts. In this session, attendees will learn about FPGAs00a0and how they can be managed at scale using emerging efforts within the larger open source community, including OpenStack and Kubernetes orchestration.Modernizing your HPC applications to take full advantage of the open hybrid cloudSteven Carter, Red HatAdopting cloud technologies and principles in00a0the development and deployment of HPC applications can yield substantial benefits in portability and scientific throughput. This session covers the impediments to running existing HPC applications in the cloud and details how to avoid them. 00a0Dynamic API back-end selection based on real-time health checks00a0through 3Scale API management and OpenShiftTom Corcoran, Red HatVeer Muchandi, Red HatRed Hat OpenShift is a game-changing containerization platform that runs your application workloads as containers at scale. 3Scale by Red Hat is an API gateway solution. While applications APIs can be managed centrally by 3Scale, occasionally an API back-end application may become unavailable. We will demonstrate the implementation of a circuit breaker pattern using a polling mechanism into the 3scale configured API gateway solution running on OpenShift. We will show how to configure the API gateway with primary, secondary, and even tertiary back-end servers to handle any given 3Scale configured API request. The polling mechanism is configured to test the health of each primary (and, if necessary, secondary and tertiary) back end00a0every X miliseconds. This results in a recently proven-to-be-available back end serving each request. It improves application reliability and availability,00a0as well as latency, as there are order-of-magnitude fewer waits for API timeouts.Fast as lightning : NVMe and NVDIMM's Impact on your data centerTom Coughlan, Red HatThe future of storage is memory, and the future of memory is storage. The increasing availability of00a0nonvolatile memory express (NVMe)00a0devices for use across fabric infrastructures and the growth of persistent nonvolatile dual inline memory module (NVDIMM)00a0memory is rapidly changing datacenter architecture. Learn what these technologies are, how you can leverage them, and what's available in Red Hat Enterprise Linux.
+              </div>
+              <hr class=clear-both>
+              <div class=session-speakers-list aria-expanded=false aria-controls=desc-83>
+                  <a href=../speakers.html#tom-corcoran107>
+                    <div class=session-speakers-less>
+                      <p class=session-speakers>
+                          <img onerror='this.onerror=null,this.src="../images/avatar.png"' src=../images/speakers/thumbnails/tom.jpg class="lazy card-img-top speaker-image-large">
+                      </p>
+                      <span class=graytext>Tom Corcoran</span>
+                    </div>
+                  </a>
+                    <p class=session-speakers-more>Specialist Solution Architect Red Hat</p>
+                  <div class="blacktext session-speaker-social">
+                    <div class=session-speakers-more>
+                        <a class="blacktext social speaker-social" href=https://twitter.com/thomascorcoran2><i class="fa fa-twitter"></i> Twitter</a>&nbsp;
+                        <a class="blacktext social speaker-social" href=https://www.linkedin.com/in/tom-corcoran-1a546bb6><i class="fa fa-linkedin"></i> LinkedIn</a>&nbsp;
+                      <a class="session-lin social speaker-social clickable-link">
+                        <i class="fa fa-share"></i> Share
+                      </a>&nbsp;
+                      <div class="social-buttons row">
+                        <div class="fb-share facebook social-button">
+                          <i class="fa fa-facebook fa s-button" aria-hidden=true></i>
+                        </div>
+                        <div class="tw-share twitter social-button">
+                          <i class="fa fa-twitter fa s-button" aria-hidden=true></i>
+                        </div>
+                        <div class="go-share google social-button">
+                          <i class="fa fa-google-plus fa s-button" aria-hidden=true></i>
+                        </div>
+                        <div class="li-share facebook social-button">
+                          <i class="fa fa-linkedin fa s-button" aria-hidden=true></i>
+                        </div>
+                        <div class="row social-link">
+                          <input class=speakers-inputbox type=text onclick=this.select() value=base#83 readonly=readonly>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr class=clear-both>
+                  <a href=../speakers.html#tom-coughlan110>
+                    <div class=session-speakers-less>
+                      <p class=session-speakers>
+                          <img onerror='this.onerror=null,this.src="../images/avatar.png"' src=../images/speakers/thumbnails/tho.jpg class="lazy card-img-top speaker-image-large">
+                      </p>
+                      <span class=graytext>Tom Coughlan</span>
+                    </div>
+                  </a>
+                    <p class=session-speakers-more>Sr. Sw. Eng. Mgr. Red Hat</p>
+                  <div class="blacktext session-speaker-social">
+                    <div class=session-speakers-more>
+                        <a class="blacktext social speaker-social" href=https://twitter.com/coughlthom><i class="fa fa-twitter"></i> Twitter</a>&nbsp;
+                        <a class="blacktext social speaker-social" href=https://www.linkedin.com/in/tomcoughlan><i class="fa fa-linkedin"></i> LinkedIn</a>&nbsp;
+                      <a class="session-lin social speaker-social clickable-link">
+                        <i class="fa fa-share"></i> Share
+                      </a>&nbsp;
+                      <div class="social-buttons row">
+                        <div class="fb-share facebook social-button">
+                          <i class="fa fa-facebook fa s-button" aria-hidden=true></i>
+                        </div>
+                        <div class="tw-share twitter social-button">
+                          <i class="fa fa-twitter fa s-button" aria-hidden=true></i>
+                        </div>
+                        <div class="go-share google social-button">
+                          <i class="fa fa-google-plus fa s-button" aria-hidden=true></i>
+                        </div>
+                        <div class="li-share facebook social-button">
+                          <i class="fa fa-linkedin fa s-button" aria-hidden=true></i>
+                        </div>
+                        <div class="row social-link">
+                          <input class=speakers-inputbox type=text onclick=this.select() value=base#83 readonly=readonly>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr class=clear-both>
+                  <a href=../speakers.html#steven-carter81>
+                    <div class=session-speakers-less>
+                      <p class=session-speakers>
+                          <img onerror='this.onerror=null,this.src="../images/avatar.png"' src=../images/speakers/thumbnails/steven.jpg class="lazy card-img-top speaker-image-large">
+                      </p>
+                      <span class=graytext>Steven Carter</span>
+                    </div>
+                  </a>
+                    <p class=session-speakers-more>Chief Cloud Architect Red Hat</p>
+                    <div class=session-speakers-more>
+                      Steven Carter is a Principal Solutions Architect with over 20 years of industry experience working in large universities, government research and development, and the private sector.  He has spent time as a system administrator running some of the World’s largest supercomputers and a network engineer building out one of the World’s first SDN networks for the Department of Energy. In addition, Steven has a wide range of experience in networking ranging from operations, to embedded software development and spends much of his time helping customers apply cloud technologies to address business requirements.
+                    </div>
+                  <div class="blacktext session-speaker-social">
+                    <div class=session-speakers-more>
+                        <a class="blacktext social speaker-social" href=https://twitter.com/jstevencarter><i class="fa fa-twitter"></i> Twitter</a>&nbsp;
+                        <a class="blacktext social speaker-social" href=https://www.linkedin.com/in/stevencarter><i class="fa fa-linkedin"></i> LinkedIn</a>&nbsp;
+                      <a class="session-lin social speaker-social clickable-link">
+                        <i class="fa fa-share"></i> Share
+                      </a>&nbsp;
+                      <div class="social-buttons row">
+                        <div class="fb-share facebook social-button">
+                          <i class="fa fa-facebook fa s-button" aria-hidden=true></i>
+                        </div>
+                        <div class="tw-share twitter social-button">
+                          <i class="fa fa-twitter fa s-button" aria-hidden=true></i>
+                        </div>
+                        <div class="go-share google social-button">
+                          <i class="fa fa-google-plus fa s-button" aria-hidden=true></i>
+                        </div>
+                        <div class="li-share facebook social-button">
+                          <i class="fa fa-linkedin fa s-button" aria-hidden=true></i>
+                        </div>
+                        <div class="row social-link">
+                          <input class=speakers-inputbox type=text onclick=this.select() value=base#83 readonly=readonly>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr class=clear-both>
+                <div class=blacktext>
+                  <p> <a href=../rooms.html#venue-2017-05-02-_Room__101> Room  101</a></p>
+                  <p>Tuesday, 2nd May, <span>10:15 - 11:00</span></p>
+                  <p>
+                    <ul class=session-ul>
+                      <li style=background-color:#b21212;color:#fff class=titlecolor></li>
+                      &nbsp;
+                      <li><a href=../tracks.html#2017-05-02-Lightning_talk> Lightning talk </a> </li>
+                    </ul>
+                  </p><br>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class=footer-container>
+        <footer class=classic>
+            <div class=container>
+                <div class="row ui-sortable">
+                    <div id=menuItem class="col-sm-2 col-md-2 col-xs-12">
+                        <ul class=menu>
+                            <li><a target=_self href=../index.html#description>About</a></li>
+                                <li><a target=_self href=../schedule.html>Schedule</a></li>
+                                <li><a target=_self href=../tracks.html>Tracks</a></li>
+                                <li><a target=_self href=../rooms.html>Rooms</a></li>
+                                <li><a target=_self href=../speakers.html>Speakers</a></li>
+                            <li><a class="inner-link back-to-top" href=#top>Back To Top</a></li>
+                        </ul>
+                    </div>
+                    <div id=copyright class="col-sm-7 col-md-7 col-xs-12">
+                    </div>
+                    <div class="contact-details col-sm-3 col-md-3 col-xs-12">
+                        <ul class=contact-methods>
+                                <li class=address>
+                                    <i class="fa fa-map-marker"></i>
+                                    <div>RedHat&#44;&nbsp;415 Summer Street Boston, MA 02210</div>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row ui-sortable">
+                    <div class="col-sm-12 text-center">
+                        <ul class=social-profiles>
+                                    <li class="pull-left social-icons"><a href=https://www.facebook.com/redhatsummit id=social-icons><i class="fa fa-lg fa-facebook" aria-hidden=true title=facebook></i></a></li>
+                                    <li class="pull-left social-icons"><a href=https://twitter.com/RedHatSummit id=social-icons><i class="fa fa-lg fa-twitter" aria-hidden=true title=twitter></i></a></li>
+                                    <li class="pull-left social-icons"><a href=https://www.youtube.com/user/redhatsummit id=social-icons><i class="fa fa-lg fa-youtube-play" aria-hidden=true title=youtube-play></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>var eventInfo={};eventInfo.name="../Red Hat Summit 2017",eventInfo.name=eventInfo.name.substring(eventInfo.name.lastIndexOf("/")+1)</script>
+    <script src=../js/jquery.min.js></script>
+    <script src=../js/bootstrap.min.js></script>
+    <script src=../js/session.min.js></script>
+  </body>
+</html>
