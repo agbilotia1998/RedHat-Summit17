@@ -1,6 +1,4 @@
 {
-  "name": "Open Event Web Application Generator",
-  "short_name": "WebApp Generator",
   "icons": [
     {
       "src": "./images/logo.png",
